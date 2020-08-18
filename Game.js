@@ -52,19 +52,19 @@ class Game {
 
       if(allPlayers !== undefined){
       image(hurdlesgroundimg,-displayWidth*1,350,displayWidth*5,displayHeight);
-      /*for (var a = 100; a < displayWidth*5; a=a+500){
+      for (var a = 100; a < displayWidth*5; a=a+1000){
       var hurdle1=createSprite(a, 700, 20, 20)
       }
-      for (var b = 100; b < displayWidth*5; b=b+500){
+      for (var b = 100; b < displayWidth*5; b=b+1000){
       var hurdle2= createSprite(b, 800, 20, 20)
       }
-      for (var c = 100; c < displayWidth*5; c=c+500){
+      for (var c = 100; c < displayWidth*5; c=c+1000){
         var  hurdle3=createSprite(c, 900, 20, 20)
       }
-      for (var d= 100; d < displayWidth*5; d=d+500){
+      for (var d= 100; d < displayWidth*5; d=d+1000){
        var hurdle4=createSprite(d, 1000, 20, 20)
       }
-      Hurdles = [hurdle1, hurdle2, hurdle3, hurdle4];
+      /*Hurdles = [hurdle1, hurdle2, hurdle3, hurdle4];
        Hurdles.addImage(hurdleimg)*/
       
       //index of the array
